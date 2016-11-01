@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context="com.example.testlife.com.example.music.fragment.MusicListFragment">
+    <ListView
+        android:id="@+id/music_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/white"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/selector"
+        android:cacheColorHint="@android:color/transparent">
+
+    </ListView>
+
+</LinearLayout>
